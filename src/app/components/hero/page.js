@@ -36,96 +36,86 @@ export default function Hero() {
   ];
 
   const products = [
-    {
-      title: "NVIDIA RTX 4090 Gaming GPU",
-      description:
-        "Ultimate 4K gaming performance with ray tracing and DLSS 3.0 support for enthusiasts.",
-      price: "$1,599.99",
-      image: "/rtx4090.png",
-      rating: 4.8,
-      link: "https://www.tradeindia.com/products/asus-rog-strix-geforce-rtx-4090-gaming-graphics-card-9588765.html",
-    },
-    {
-      title: "Intel Core i9-13900K CPU",
-      description:
-        "High-performance 24-core processor designed for gaming and content creation.",
-      price: "$589.99",
-      image: "/intel-i9.png",
-      rating: 4.7,
-      link : "https://www.flipkart.com/intel-i9-13900k-2-2-ghz-lga1700-socket-8-cores-desktop-processor/p/itme9e395e7c809c?pid=PSRGJUC2GBJNKZG5&lid=LSTPSRGJUC2GBJNKZG5AUIDRE&marketplace=FLIPKART&cmpid=content_processor_8965229628_gmc",
-    },
-    {
-      title: "ASUS ROG STRIX B650-E Board",
-      description:
-        "Premium AMD AM5 motherboard with PCIe 5.0 and DDR5 memory support.",
-      price: "$449.99",
-      image: "/motherboard.png",
-      rating: 4.6,
-      link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
-    },
-    {
-      title: "Corsair Vengeance DDR5 32GB",
-      description:
-        "High-speed 32GB DDR5 memory kit optimized for maximum gaming performance.",
-      price: "$199.99",
-      image: "/corsair-ram.png",
-      rating: 4.5,
-      link: "https://www.amazon.in/CORSAIR-Vengeance-1x32GB-5200MHz-CMK32GX5M1B5200C40/dp/B0B9S32J4G/ref=sr_1_3?adgrpid=120823144475&dib=eyJ2IjoiMSJ9.sDFcsvTGO6gzykqQie_OjtA7lDaVtZ-6Ulz8tLIJ1XbNkoYzepYjwK0Bp0zRvZ-2SHOKhnC5Ss5JwNmgdZQvOM0udDHP4x5pPW97Qfwt4uzLkAdlihwkhtq9cGVTUGW7TJ_YcVLjrHFwiV-ej4ZyHXfaryTRkCjcHbcKAMDeQMSjBMrJVaNZeCqOTdUnuW5HSN16llVpZV8PkkSNAyu-Yt_gm2Ly8UBpe1eKmeCjh7Q.OvDWPKUL5Rlgsn7eERai1eaLWpAEMddnUAe0ehtwRZo&dib_tag=se&ext_vrnc=hi&hvadid=510088818602&hvdev=c&hvlocphy=9040193&hvnetw=g&hvqmt=e&hvrand=2700183081166624885&hvtargid=kwd-1467368549271&hydadcr=1124_2337950&keywords=corsair+vengeance+ddr5+32gb&mcid=915c0336376e377f9f37d20bea5150be&qid=1755102920&sr=8-3",
-    },
-    {
-      title: "Samsung 980 PRO 2TB SSD",
-      description:
-        "Lightning-fast PCIe 4.0 NVMe SSD delivering 7,000MB/s read speeds.",
-      price: "$179.99",
-      image: "/rtx4090.png",
-      rating: 4.9,
-      link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
-    },
-    {
-      title: "Corsair RM850x 850W PSU",
-      description:
-        "80+ Gold certified fully modular power supply with comprehensive 10-year warranty.",
-      price: "$149.99",
-      image: "/rtx4090.png",
-      rating: 4.7,
-      link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
-    },
-    {
-      title: "NZXT Kraken X63 280mm AIO",
-      description:
-        "Advanced liquid cooling solution with customizable RGB lighting and CAM software.",
-      price: "$149.99",
-      image: "/rtx4090.png",
-      rating: 4.4,
-      link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
-    },
-    {
-      title: "Fractal Define 7 Mid-Tower",
-      description:
-        "Premium mid-tower case featuring excellent airflow and superior noise dampening.",
-      price: "$169.99",
-      image: "/rtx4090.png",
-      rating: 4.6,
-      link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
-    },
-    {
-      title: "MSI GeForce RTX 4070 Ti",
-      description:
-        "Powerful mid-range GPU engineered for exceptional 1440p gaming with ray tracing.",
-      price: "$799.99",
-      image: "/rtx4090.png",
-      rating: 4.5,
-      link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
-    },
-    {
-      title: "AMD Ryzen 7 7700X CPU",
-      description:
-        "8-core Zen 4 processor delivering outstanding gaming and multitasking performance.",
-      price: "$399.99",
-      image: "/rtx4090.png",
-      rating: 4.8,
-      link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
-    },
+ {
+    title: "NVIDIA RTX 4090 Gaming GPU",
+    description: "Ultimate 4K gaming performance with ray tracing and DLSS 3.0 support for enthusiasts.",
+    price: "₹75000", 
+    image: "/rtx4090.png",
+    rating: 4.8,
+    link: "https://www.tradeindia.com/products/asus-rog-strix-geforce-rtx-4090-gaming-graphics-card-9588765.html",
+  },
+  {
+    title: "Intel Core i9-13900K CPU",
+    description: "High-performance 24-core processor designed for gaming and content creation.",
+    price: "₹45,990", 
+    image: "/intel-i9.png",
+    rating: 4.7,
+    link: "https://www.flipkart.com/intel-i9-13900k-2-2-ghz-lga1700-socket-8-cores-desktop-processor/p/itme9e395e7c809c",
+  },
+  {
+    title: "ASUS ROG STRIX B650-E Board",
+    description: "Premium AMD AM5 motherboard with PCIe 5.0 and DDR5 memory support.",
+    price: "₹29,000", 
+    image: "/motherboard.png",
+    rating: 4.6,
+    link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
+  },
+  {
+    title: "Corsair Vengeance DDR5 32GB",
+    description: "High-speed 32GB DDR5 memory kit optimized for maximum gaming performance.",
+    price: "₹11,249", 
+    image: "/corsair-ram.png",
+    rating: 4.5,
+    link: "https://www.amazon.in/CORSAIR-Vengeance-1x32GB-5200MHz-CMK32GX5M1B5200C40/dp/B0B9S32J4G",
+  },
+  {
+    title: "Samsung 980 PRO 2TB SSD",
+    description: "Lightning-fast PCIe 4.0 NVMe SSD delivering 7,000MB/s read speeds.",
+    price: "₹13,990",
+    image: "/980pro.png",
+    rating: 4.9,
+    link: "https://computechstore.in/product/asus-rog-strix-b550-f-gaming/",
+  },
+  {
+    title: "Corsair RM850x 850W PSU",
+    description: "80+ Gold certified fully modular power supply with comprehensive 10-year warranty.",
+    price: "₹11,100",
+    image: "/CORSAIR-RM850x.png",
+    rating: 4.7,
+    link: "https://www.amazon.in/CORSAIR-RM850x-Certified-Modular-Supply/dp/B079H5WNXN?th=1",
+  },
+  {
+    title: "NZXT Kraken X63 280mm AIO",
+    description: "Advanced liquid cooling solution with customizable RGB lighting and CAM software.",
+    price: "₹12,150", 
+    image: "/NZXT.png",
+    rating: 4.4,
+    link: "https://www.amazon.in/Kraken-Liquid-Cooler-Socket-2011-3/dp/B08PDX5NM3?th=1",
+  },
+  {
+    title: "Fractal Define 7 Mid-Tower",
+    description: "Premium mid-tower case featuring excellent airflow and superior noise dampening.",
+    price: "₹13,999", 
+    image: "/Fractal.png",
+    rating: 4.6,
+    link: "https://www.fractal-design.com/products/cases/define/define-7/black-tg-dark-tint/",
+  },
+  {
+    title: "MSI GeForce RTX 4070 Ti",
+    description: "Powerful mid-range GPU engineered for exceptional 1440p gaming with ray tracing.",
+    price: "₹96,999",
+    image: "/4070ti.png",
+    rating: 4.5,
+    link: "https://smarttechno.in/graphics-card/nvidia-gpu/nvidia-rtx-40-series/msi-geforce-rtx-4070-gaming-x-trio-12g",
+  },
+  {
+    title: "AMD Ryzen 7 7700X CPU",
+    description: "8-core Zen 4 processor delivering outstanding gaming and multitasking performance.",
+    price: "₹31,138", 
+    image: "/ryzen7.png",
+    rating: 4.8,
+    link: "https://www.flipkart.com/amd-ryzen-7-7700x-4-5-ghz-upto-5-4-am5-socket-8-cores-16-threads-desktop-processor/p/itm36ad58d4959ef",
+  },
   ];
 
   const settings = {
@@ -147,17 +137,17 @@ export default function Hero() {
 
   const handleSlideClick = (link, e) => {
     if (e.target.closest(".hero-btn")) return;
-    router.push(link);
+    window.open(link, '_blank', 'noopener,noreferrer');
   };
 
   const handleButtonClick = (link, e) => {
     e.stopPropagation();
-    router.push(link);
+    window.open(link, '_blank', 'noopener,noreferrer');
   };
 
   const handleProductClick = (product) => {
     if (product.link) {
-      router.push(product.link);
+      window.open(product.link, '_blank', 'noopener,noreferrer');
     } else {
       console.warn("No link found for:", product.title);
     }
@@ -224,27 +214,27 @@ export default function Hero() {
 
       <div className="hero-bottom">
         <h2>Popular Computer Parts</h2>
-        <div className="product-grid">
+        <div className="hero-product-grid">
           {products.map((product, index) => (
             <div
-              className="product-card"
+              className="hero-product-card"
               key={index}
               onClick={() => handleProductClick(product)}
             >
-              <div className="product-image">
+              <div className="hero-product-image">
                 <img src={product.image} alt={product.title} loading="lazy" />
               </div>
-              <div className="product-info">
+              <div className="hero-product-info">
                 <h3>{product.title}</h3>
                 <p>{product.description}</p>
-                <div className="product-rating">
-                  <div className="rating-number">{product.rating}</div>
+                <div className="hero-product-rating">
+                  <div className="hero-rating-number">{product.rating}</div>
                   {renderStars(product.rating)}
                 </div>
-                <div className="product-price-row">
-                  <div className="product-price">{product.price}</div>
+                <div className="hero-product-price-row">
+                  <div className="hero-product-price">{product.price}</div>
                   <button
-                    className="product-btn"
+                    className="hero-product-btn"
                     onClick={(e) => {
                       e.stopPropagation();
                       handleProductClick(product);

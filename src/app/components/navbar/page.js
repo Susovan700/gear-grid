@@ -23,7 +23,7 @@ export default function Navbar() {
           <button onClick={() => router.push("/")}>Home</button>
           <button onClick={() => router.push("/shop")}>Shop</button>
           <button onClick={() => router.push("/about")}>About Us</button>
-          <button onClick={() => router.push("/contact")}>Contact</button>
+          {/* <button onClick={() => router.push("/contact")}>Contact</button> */}
         </div>
         <div className="nav-right">
           <button
