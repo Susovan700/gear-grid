@@ -60,7 +60,7 @@ export default function Navbar() {
           onClick={toggleMobileMenu}
           aria-label="Toggle menu"
         >
-          ⋯
+          ☰
           {/* Mobile dropdown menu */}
           <div className={`mobile-menu ${showMobileMenu ? 'show' : ''}`}>
             <button 
