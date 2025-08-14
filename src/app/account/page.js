@@ -27,7 +27,7 @@ export default function AccountModal({ onClose }) {
         </button>
         
         <div className="modal-header">
-          <h2>Sign in to QuickCart Ecommerce</h2>
+          <h2>Sign in to GearGrid</h2>
           <p className="welcome-text">Welcome back! Please sign in to continue</p>
         </div>
 

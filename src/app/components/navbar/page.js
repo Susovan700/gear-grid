@@ -1,15 +1,19 @@
 "use client";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname  } from "next/navigation";
 import { useState } from "react";
 import AccountModal from "../../account/page.js";
 import "./nav.css";
 
 export default function Navbar() {
   const router = useRouter();
+    const pathname = usePathname();
   const [showAccountModal, setShowAccountModal] = useState(false);
 
   const openAccountModal = () => setShowAccountModal(true);
   const closeAccountModal = () => setShowAccountModal(false);
+  const isActive = (path) => {
+    return pathname === path;
+  };
 
   return (
     <>
@@ -20,10 +24,10 @@ export default function Navbar() {
         </div>
 
         <div className="nav-mid">
-          <button onClick={() => router.push("/")}>Home</button>
-          <button onClick={() => router.push("/shop")}>Shop</button>
-          <button onClick={() => router.push("/about")}>About Us</button>
-          {/* <button onClick={() => router.push("/contact")}>Contact</button> */}
+          <button onClick={() => router.push("/")} className={isActive("/") ? "active" : ""}>Home</button>
+          <button onClick={() => router.push("/shop")} className={isActive("/shop") ? "active" : ""}>Shop</button>
+          <button onClick={() => router.push("/about")} className={isActive("/about") ? "active" : ""}>About Us</button>
+          
         </div>
         <div className="nav-right">
           <button

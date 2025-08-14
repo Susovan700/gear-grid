@@ -38,7 +38,10 @@
   .nav-mid{
     margin-top: 20px;
   }
-
+  .nav-mid button.active {
+  color: #f44336 !important;
+  /* Or any other styling you want for the active button */
+}
   .nav-mid button {
     margin-right: 15px;
     background: none;
@@ -50,6 +53,7 @@
 
   .nav-mid button:hover{
     cursor: pointer;
+    color: #f44336;
   }
 
   .nav-right {

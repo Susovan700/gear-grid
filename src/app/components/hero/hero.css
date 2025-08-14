@@ -3,7 +3,6 @@
   padding: 22px 4% 0 4%;
   box-sizing: border-box;
   width: 100%;
-  
 }
 
 html, body {
@@ -19,7 +18,7 @@ html, body {
   box-sizing: inherit;
 }
 body {
-  overflow-x: hidden;
+  overflow-y:scroll;
 }
 
 
@@ -695,4 +694,14 @@ body {
   .hero-bottom h2 {
     padding: 0 10px;
   }
+}
+
+body {
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+  scrollbar-width: none; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
